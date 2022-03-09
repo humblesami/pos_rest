@@ -14,4 +14,5 @@
     'data': [
         'views/pos_template.xml',
     ],
+    'qweb': ['static/src/xml/customer.xml'],
 }

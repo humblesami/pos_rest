@@ -12,9 +12,8 @@ class ResPartnerTSTInherit(models.Model):
     def search_read(self, domain=None, fields=None, offset=0, limit=None, order=None):
         if not domain:
             domain = []
-        # res = super()._search(domain, offset, limit, order)
         last_field = 1
-        last_field = fields[len(fields) - 1]
+        # last_field = fields[len(fields) - 1]
         if last_field != 'loading_data_offline':
             res = super().search_read(domain=domain, fields=fields, offset=offset, limit=limit, order=order)
             return res

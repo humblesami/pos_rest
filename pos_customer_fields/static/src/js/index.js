@@ -1,4 +1,3 @@
-console.log(1111);
 //This file is just added so we can keep the actual code debuggable
 //otherwise we could directly include inline_customer_debug.js in view file
 
