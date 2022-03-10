@@ -22,7 +22,6 @@ odoo.define('pos_customer_fields.customer_fields',function(require) {
     var posDB_super = require('point_of_sale.DB');
     var posDBSearch =  posDB_super.include({
         _partner_search_string: function(partner){
-            console.log('partner search');
             let str = '';
             if(partner.vehicle_number)
             {
