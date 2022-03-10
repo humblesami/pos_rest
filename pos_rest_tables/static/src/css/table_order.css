@@ -1,0 +1,12 @@
+.table-cleaner{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0;
+    cursor: alias;
+    background: white;
+    line-height: 1.4;
+    color: black;
+    z-index: 56;
+    font-size: 0.9rem;
+}

@@ -2,6 +2,7 @@
     <data>`
         <template id="assets" inherit_id="point_of_sale.assets">
             <xpath expr="." position="inside">
+                <!--<link rel="stylesheet" href="/pos_rest_tables/static/src/css/table_order.css" />-->
                 <script type="text/javascript" src="/pos_rest_tables/static/src/js/table_order_main.js"></script>
             </xpath>
         </template>

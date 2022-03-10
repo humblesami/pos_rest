@@ -7,5 +7,6 @@
     let scripts = `
     <script type="text/javascript" src="/pos_rest_tables/static/src/js/table_order_main_debug.js?v=${dt}"></script>
     `;
+    $('head').append('<link rel="stylesheet" href="/pos_rest_tables/static/src/css/table_order.css?v='+dt+'" />');
     document.write(scripts);
 })();
