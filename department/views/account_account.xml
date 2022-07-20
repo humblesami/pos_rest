@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<odoo>
+        <!-- journal entry Inherit Form View to Modify it -->
+    <record id="view_account_inherit_department" model="ir.ui.view">
+        <field name="name">view_account_inherit_department</field>
+        <field name="model">account.account</field>
+        <field name="inherit_id" ref="account.view_account_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='group_id']"
+                   position="after">
+                <!-- Add your fields or attributes here -->
+                    <field name="branch_id"/>
+            </xpath>
+            
+        </field>
+    </record>
+
+</odoo>
