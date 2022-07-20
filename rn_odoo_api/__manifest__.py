@@ -32,5 +32,6 @@
     'demo': [
         # 'demo/demo.xml',
     ],
+    "author": "sami",
     'application': True,
 }
