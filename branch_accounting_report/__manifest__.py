@@ -4,8 +4,8 @@
     "name" : "Financial Reports For Branch -Enterprise Edition Odoo",
     "version" : "12.0.0.1",
     "category" : "Accounting",
-    "depends" : ['account', 'account_accountant', 'account_reports','department'],
-    "author": "Odoo",
+    "depends" : ['account', 'account_accountant', 'account_reports', 'department'],
+    "author": "Odoo sami",
     'summary': 'This app helps to provide branch wise filter on all Financial statement for Enterprise edition',
     "description": """
       multiple branch accounting reports
@@ -15,7 +15,6 @@
     "data": [
         'data/account_financial_report_data.xml',
         'views/search_template_view.xml',
-
     ],
     'qweb': [
     ],

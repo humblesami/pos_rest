@@ -1,4 +1,4 @@
-console.log("v1 api call");
+console.log("aaapdiiiiiiiiiiiii calledddddddddddddddddddddddddddddd");
 odoo.define('branch_accounting_report.account_report_generic', function (require) {
     'use strict';
 
@@ -12,15 +12,11 @@ odoo.define('branch_accounting_report.account_report_generic', function (require
     var datepicker = require('web.datepicker');
     var session = require('web.session');
     var field_utils = require('web.field_utils');
-
     var account_report_generic = require('account_reports.account_report');
-
     var QWeb = core.qweb;
     var _t = core._t;
-
     account_report_generic.include({
         //console.log("aaapdiiiiiiiiiiiii calledddddddddddddddddddddddddddddd");
-
         render_searchview_buttons: function () {
             var self = this;
             // fold all menu
